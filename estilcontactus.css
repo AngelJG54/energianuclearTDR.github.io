@@ -1,0 +1,81 @@
+h1{
+    padding-top:100px;
+    font-family:titols;
+    font-size: 100px;
+    margin:0px;
+}
+
+
+
+p{
+    color:rgb(11, 61, 4);
+    font-family:preguntes;
+}
+
+div{
+    position:fixed;
+    background:rgb(41, 87, 3);
+    width:100%;
+    
+}
+
+li {
+    font-family:index;
+    font-size:35px;
+    display: inline; 
+    /*padding:75px;*/
+    
+}
+
+#menu li{/*per donar format als butons*/
+    width:100px;
+    height:25px;
+    margin:50px;
+    padding: 2px 7px;
+    background-color:rgb(11, 61, 4);
+    color:rgb(4, 145, 11);
+    text-align:center;
+  
+    position:relative; /*deixa l'espai del costat lliure per ser ocupat pel submenú*/
+    border-radius:10px;
+    border:2px solid;
+    border-color:rgb(9, 31, 0);
+}
+
+#menu li:active{/*estil mentre estem prement el botó*/
+    background-color: rgb(59, 104, 46);
+    color:black;
+
+}
+
+#menu li>ul{ /*estil per als submenús*/
+    display:none; /*no mostris els submenús*/
+
+}
+
+
+#menu li:hover>ul{ /*hover fa referència a les llistes que tenen llistes a dins*/
+    display:above;
+    position:relative; /* per no desplaçar els botons del menú anterior*/
+}
+
+body{
+    background:  linear-gradient(90deg, rgba(121,255,0,1) 0%, rgba(204,218,17,1) 50%, rgba(121,255,0,1) 100%);
+    margin:0px;
+    padding:0px;
+}
+
+@font-face {
+    font-family:titols;  /*nom que volem que tingui la lletra dafont.com*/
+    src: url(Creative\ School.otf);
+}
+
+@font-face {
+    font-family:index;  /*nom que volem que tingui la lletra dafont.com*/
+    src: url(Forque.ttf);
+}
+
+@font-face {
+    font-family:preguntes;  /*nom que volem que tingui la lletra dafont.com*/
+    src: url(Florida\ Project\ Phase\ One.ttf);
+}

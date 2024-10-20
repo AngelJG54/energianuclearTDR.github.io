@@ -1,0 +1,109 @@
+h1{
+    padding-top:100px;
+    font-family:titols;
+    font-size: 100px;
+    margin:0px;
+    padding-bottom:50px;
+    
+}
+
+h2{
+   margin-left: 10px;
+   margin-bottom:0px;
+   color:yellow;
+   font-family:titolstexts;
+   font-size:50px;
+}
+
+nav{
+    margin:0px;
+    position:fixed;
+    background:rgb(41, 87, 3);
+    width:100%;
+    }
+
+p{
+    margin-top:50px;
+    color:yellow;
+    font-family:texts;
+}
+
+.ITER{
+
+    margin-left:85px;
+     border:8px solid/*línies discontinues*/ rgb(255, 251, 0);
+         border-radius: 40px;
+         background-color: rgb(24, 59, 4);
+         font-size:20px;
+         width:90%;
+         height:600px;     
+ }
+
+ .iteer{
+    margin-top:0px;
+    color:yellow;
+    font-family:texts;
+}
+
+.itter{
+    border:4px dashed yellow
+}
+
+li {
+    font-family:index;
+    font-size:35px;
+    display: inline; 
+    /*padding:75px;*/
+    
+}
+
+#menu li{/*per donar format als butons*/
+    margin-top:0px;
+    width:100px;
+    height:25px;
+    margin:50px;
+    padding: 2px 7px;
+    background-color:rgb(11, 61, 4);
+    color:rgb(4, 145, 11);
+    text-align:center;
+  
+    position:relative; /*deixa l'espai del costat lliure per ser ocupat pel submenú*/
+    border-radius:10px;
+    border:2px solid;
+    border-color:rgb(9, 31, 0);
+}
+
+#menu li:active{/*estil mentre estem prement el botó*/
+    background-color: rgb(59, 104, 46);
+    color:black;
+
+}
+
+
+
+body{
+    background:  linear-gradient(90deg, rgba(121,255,0,1) 0%, rgba(204,218,17,1) 50%, rgba(121,255,0,1) 100%);
+    margin:0px;
+    padding:0px;
+    
+}
+
+@font-face {
+    font-family:titols;  /*nom que volem que tingui la lletra dafont.com*/
+    src: url(Creative\ School.otf);
+}
+
+@font-face {
+    font-family:index;  /*nom que volem que tingui la lletra dafont.com*/
+    src: url(Forque.ttf);
+}
+
+@font-face {
+    font-family:titolstexts;  /*nom que volem que tingui la lletra dafont.com*/
+    src: url(absender1.ttf);
+}
+
+@font-face {
+    font-family:texts;  /*nom que volem que tingui la lletra dafont.com*/
+    src: url(Colorless_Standard.otf);
+}
